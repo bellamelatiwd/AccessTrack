@@ -1,0 +1,141 @@
+table > thead > tr {
+	background-color: #015f29;
+	color: white;
+}
+table > thead > tr > th {
+	text-align: center;
+}
+li > a > i {
+	color: #ffffff;
+	width: 5%;
+}
+div > a > i {
+	color: #015f29;
+	width: 5%;
+}
+body {
+	background: url("assets/img/bg.png") no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+.login-container {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body.hold-transition.login-page {
+	background: url("../img/bg.png") no-repeat center center fixed;
+	background-size: cover;
+}
+/* General Styles */
+.content-wrapper {
+	font-family: Arial, sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+	background-color: #014220;
+	color: white;
+}
+
+.sidebar a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+.sidebar a:hover {
+	background-color: #028a45;
+	color: #fff;
+}
+
+/* Table Styles */
+.table th,
+.table td {
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+}
+
+.table th {
+	background-color: #014220;
+	color: white;
+}
+
+.table td {
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+/* Wrapping Long Text */
+td.long-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 150px;
+}
+
+/* Modal Styling (optional for "Read More") */
+.modal-content {
+	padding: 20px;
+	font-size: 14px;
+}
+.table-bordered th,
+.table-bordered td {
+	vertical-align: middle;
+}
+
+.table-responsive .badge {
+	padding: 5px 10px;
+	font-size: 0.9rem;
+}
+
+.text-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-muted {
+	color: #6c757d !important;
+}
+
+.font-weight-bold {
+	font-weight: 600;
+}
+
+.text-primary {
+	color: #007bff !important;
+}
+.btn-success {
+	background-color: #28a745 !important; /* Warna hijau */
+	border-color: #28a745 !important;
+	color: #fff !important;
+}
+
+.btn-success:hover {
+	background-color: #218838 !important; /* Warna hijau lebih gelap untuk hover */
+	border-color: #1e7e34 !important;
+}
+
+.badge-approved {
+	background-color: green;
+	color: white;
+}
+
+.badge-pending {
+	background-color: yellow;
+	color: black;
+}
+
+.badge-rejected {
+	background-color: red;
+	color: white;
+}
+.badge[style*="background-color: green"] {
+	background-color: green !important;
+	color: white !important;
+}
