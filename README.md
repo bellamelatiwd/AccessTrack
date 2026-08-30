@@ -85,27 +85,29 @@ erDiagram
 ```
 
 ## Project Structure
+
+```
 AccessTrack/
 ├── application/
-│ ├── controllers/
-│ │ ├── Auth.php # Login, registrasi, & session handling
-│ │ ├── Admin.php # Dashboard & aksi admin (approve/reject pengajuan & laporan)
-│ │ └── User.php # Dashboard user, form pengajuan & pelaporan
-│ ├── models/
-│ │ ├── Model_Auth.php # Query autentikasi & role checking
-│ │ ├── Model_Pengguna.php # CRUD data user
-│ │ ├── Model_Pengajuan.php # CRUD pengajuan kartu akses & status pembayaran
-│ │ └── Model_CSIRT.php # CRUD laporan insiden keamanan
-│ ├── views/ # Tampilan per role (admin & user)
-│ ├── config/ # Konfigurasi database, base URL, autoload
-│ └── helpers/ # Fungsi bantu kustom
+│   ├── controllers/
+│   │   ├── Auth.php          # Login, registrasi, & session handling
+│   │   ├── Admin.php         # Dashboard & aksi admin (approve/reject pengajuan & laporan)
+│   │   └── User.php          # Dashboard user, form pengajuan & pelaporan
+│   ├── models/
+│   │   ├── Model_Auth.php       # Query autentikasi & role checking
+│   │   ├── Model_Pengguna.php   # CRUD data user
+│   │   ├── Model_Pengajuan.php  # CRUD pengajuan kartu akses & status pembayaran
+│   │   └── Model_CSIRT.php      # CRUD laporan insiden keamanan
+│   ├── views/           # Tampilan per role (admin & user)
+│   ├── config/           # Konfigurasi database, base URL, autoload
+│   └── helpers/           # Fungsi bantu kustom
 ├── assets/
-│ ├── css/, scss/, js/ # Styling & interaktivitas frontend
-│ └── kwitansi/ # Template & output bukti pembayaran (PDF)
-├── system/ # Core CodeIgniter 3 framework
-├── vendor/ # Dependency Composer (Dompdf, PHPOffice, dll.)
+│   ├── css/, scss/, js/      # Styling & interaktivitas frontend
+│   └── kwitansi/                # Template & output bukti pembayaran (PDF)
+├── system/                        # Core CodeIgniter 3 framework
+├── vendor/                         # Dependency Composer (Dompdf, PHPOffice, dll.)
 └── composer.json
-
+```
 
 ## Testing
 Diuji menggunakan **Black Box Testing** (fungsional) dan **User Acceptance Testing/UAT** untuk memastikan sistem sesuai kebutuhan pengguna sebelum deployment.
