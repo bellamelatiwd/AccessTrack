@@ -19,7 +19,7 @@ Sebelumnya, pelaporan insiden keamanan dilakukan secara tidak terstruktur melalu
 | Database | MariaDB |
 | PDF Generation | Dompdf (kwitansi & laporan) |
 | Dependency Manager | Composer |
-| Metodologi | SDLC Waterfall |
+| Metodologi | SDLC Agile |
 
 ## Entity Relationship Diagram
 
